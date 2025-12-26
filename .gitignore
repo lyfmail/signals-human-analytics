@@ -1,0 +1,54 @@
+# ============================
+# Signals – Human Analytics
+# ============================
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Composer
+/vendor/
+composer.lock
+
+# Environment & secrets
+.env
+.env.*
+config/config.local.php
+
+# Logs & runtime storage
+/storage/logs/*
+/storage/cache/*
+
+# Keep placeholders
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+
+# Temporary & debug
+/tmp/
+debug.log
+php_errors.log
+
+# Node (if added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist/
+*.zip
+
+# Server configs (deployment-specific)
+.htaccess
+robots.txt
+sitemap.xml
+
+# Public uploads
+/public/uploads/
