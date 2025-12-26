@@ -1,0 +1,16 @@
+```json
+{
+  "name": "lyfmail/signals-human-analytics",
+  "description": "Privacy-first human traffic analytics for the AI web",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Signals\\": "core/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
+```
